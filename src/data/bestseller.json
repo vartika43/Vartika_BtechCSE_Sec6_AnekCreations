@@ -1,0 +1,90 @@
+[
+    {
+        "title": "Celestial Swirl Wind Spinner",
+        "image": "https://m.media-amazon.com/images/X/bxt1/M/Gbxt1hp9BR2wu8i._SL360_QL95_FMwebp_.jpg",
+        "price": 160,
+        "oldPrice": 300,
+        "discount": "46% Off",
+        "quantity": 0
+      },
+      {
+        "title": "Daisy Crochet Ring",
+        "image": "https://m.media-amazon.com/images/X/bxt1/M/obxt1BWQCV4ul0a._SL360_QL95_FMwebp_.jpg",
+        "price": 99,
+        "oldPrice": 150,
+        "discount": "34% Off",
+        "quantity": 0
+      },
+      {
+        "title": "Festive Vibes Crochet Earrings",
+        "image": "https://m.media-amazon.com/images/X/bxt1/M/Rbxt1hocOChhfYv._SL360_QL95_FMwebp_.jpg",
+        "price": 110,
+        "oldPrice": 199,
+        "discount": "44% Off",
+        "quantity": 0
+      },
+      {
+        "title": "Mini Rose Crochet Earrings",
+        "image": "https://m.media-amazon.com/images/X/bxt1/M/Vbxt1hn9uxJLZ9t._SL360_QL95_FMwebp_.jpg",
+        "price": 99,
+        "oldPrice": 150,
+        "discount": "34% Off",
+        "quantity": 0
+      },
+      {
+        "title": "Multi-Colored Crochet Evil Eye Keychain",
+        "image": "https://m.media-amazon.com/images/X/bxt1/M/jbxt1RssuuUoWY3._SL360_QL95_FMwebp_.jpg",
+        "price": 149,
+        "oldPrice": 400,
+        "discount": "62% Off",
+        "quantity": 0
+      },
+      {
+        "title": "Sunflower Crochet Earrings",
+        "image": "https://m.media-amazon.com/images/X/bxt1/M/Sbxt1x0m57MBgxD._SL360_QL95_FMwebp_.jpg",
+        "price": 149,
+        "oldPrice": 350,
+        "discount": "57% Off",
+        "quantity": 0
+      },
+      {
+        "title": "Trio Crochet Earrings",
+        "image": "https://m.media-amazon.com/images/X/bxt1/M/1bxt1xGcq637L9o._SL360_QL95_FMwebp_.jpg",
+        "price": 99,
+        "oldPrice": 150,
+        "discount": "34% Off",
+        "quantity": 0
+      },
+      {
+        "title": "Watermelon Crochet Earrings",
+        "image": "https://m.media-amazon.com/images/X/bxt1/M/dbxt1hZOqY-fdQp._SL360_QL95_FMwebp_.jpg",
+        "price": 70,
+        "oldPrice": 120,
+        "discount": "41% Off",
+        "quantity": 0
+      },
+      {
+          "title": "Blue Dreamcatcher",
+          "price": 130,
+          "oldPrice": 300,
+          "discount": "56% Off",
+          "quantity": 0,
+          "image": "https://m.media-amazon.com/images/X/bxt1/M/dbxt1BLkha9lw9C._SL360_QL95_FMwebp_.jpg"
+        },
+        {
+          "title": "Dawn Pink Dreamcatcher",
+          "price": 160,
+          "oldPrice": 250,
+          "discount": "36% Off",
+          "quantity": 0,
+          "image": "https://m.media-amazon.com/images/X/bxt1/M/Kbxt1xtsIOQuCRP._SL360_QL95_FMwebp_.jpg"
+        },
+        {
+          "title": "Dual Ring Car Hanging",
+          "price": 240,
+          "oldPrice": 400,
+          "discount": "40% Off",
+          "quantity": 0,
+          "image": "https://m.media-amazon.com/images/X/bxt1/M/4bxt1h6W4Yod-Z6._SL360_QL95_FMwebp_.jpg"
+        }
+]
