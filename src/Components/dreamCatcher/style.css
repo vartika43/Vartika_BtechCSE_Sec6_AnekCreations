@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background: url("https://th.bing.com/th/id/OIP.U74y-gPP4g-HE70ZgR5FfAHaEo?w=241&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7")
+    no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+.contact-info {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  font-size: 14px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.logo_image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+.icons span {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sort_by_btn {
+    background-color: initial;
+    background-image: linear-gradient(#8614f8 0, #760be0 100%);
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(245, 244, 247, 0.25) 0 1px 1px inset;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height:40px;
+    line-height:40px;
+    margin-left: -4px;
+    outline: 0;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: bottom;
+    width: 190px;
+  }
+  
+  .sort_by_btn:hover {
+    opacity: 0.7;
+  }
+  
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.quantity-controls button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  color: black;
+}
+
+.quantity-controls span {
+  font-weight: bold;
+  min-width: 20px;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fav-icon-wrapper {
+  z-index: 2;
+}
+
+.fav-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  float: right;
+  color: #d70040;
+  transition: transform 0.2s;
+}
+
+.fav-button:hover {
+  transform: scale(1.2);
+}
+
+
+.fav-button {
+  position: absolute;
+  top: 10px;
+  width: 50px;
+  right: 0;
+  padding: 0 0 0 10px;  
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card h2 {
+  font-size: 16px;
+  margin: 0 0 5px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 14px;
+}
+
+.discount {
+  color: green;
+  font-size: 14px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.footer-columns div {
+  width: 20%;
+  margin: 10px 0; /* Add margin for spacing */
+}
+
+.footer-columns h3 {
+  margin-bottom: 15px;
+  color: #fbc2eb; /* Light color for headings */
+}
+
+.footer-columns p {
+  margin: 5px 0; /* Add margin for spacing */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.footer-columns p:hover {
+  color: #fbc2eb; /* Change color on hover */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 5px 0; /* Add margin for spacing */
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 1000; /* Ensures it stays on top */
+}
+
+.whatsapp-float img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%; /* Makes it circular */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-float img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}

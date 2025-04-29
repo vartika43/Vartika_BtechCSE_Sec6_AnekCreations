@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+.login-background {
+    font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #dfdfdf;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0px 2px 5px rgba(114, 97, 97, 0.1);
+}
+  .logo_image_login {
+    width: 60px;
+    height: auto;
+    margin: 0; /* Remove any margin pushing it away */
+  }
+  
+
+.form-wrapper {
+  margin: auto;
+  border-radius: 4px;
+  padding: 60px 50px;
+  width: 100%;
+  max-width: 450px;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.form-wrapper h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.form-wrapper form {
+  margin: 25px 0 40px;
+}
+
+form .form-control {
+  height: 50px;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.form-control input {
+  height: 100%;
+  width: 100%;
+  background: #f8f5f8;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: #000; /* <-- changed to black */
+  font-size: 1rem;
+  padding: 0 20px;;
+}
+
+.form-control input:is(:focus, :valid) {
+  background: #f7f3f7;
+  padding: 16px 20px 0;
+}
+
+.form-control label {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  pointer-events: none;
+  color: #8c8c8c;
+  transition: all 0.1s ease;
+}
+
+.form-control input:is(:focus, :valid) ~ label {
+  font-size: 0.75rem;
+  transform: translateY(-130%);
+}
+
+form button {
+  width: 100%;
+  padding: 16px 0;
+  font-size: 1rem;
+  background: #aa66c7;
+  color: #110e0e;
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  margin: 25px 0 10px;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+form button:hover {
+  color: #ffffff;
+  background: #72358c;
+}
+
+.form-wrapper a {
+  text-decoration: none;
+}
+
+.form-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.form-wrapper :where(label, p, small, a) {
+  color: #b3b3b3;
+}
+
+form .form-help {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+form .remember-me {
+  display: flex;
+  /* align-items: center; */
+}
+
+form .remember-me input {
+  margin-right: 5px;
+  accent-color: #b3b3b3;
+}
+
+form .form-help :where(label, a) {
+  font-size: 0.9rem;
+}
+
+.form-wrapper p a {
+  color: #fff;
+}
+
+.form-wrapper small {
+  display: block;
+  margin-top: 15px;
+  color: #b3b3b3;
+}
+
+.form-wrapper small a {
+  color: #0071eb;
+}
+
+/* Responsive */
+@media (max-width: 740px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  .logo_image_login {
+    width: 140px;
+  }
+
+  .form-wrapper {
+    padding: 40px 20px;
+    top: auto;
+  }
+}
